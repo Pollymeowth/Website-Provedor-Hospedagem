@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.limita-secao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+/* secao topo */
+.topo{
+    position: relative;
+    padding: 35px 0;
+
+}
+.topo-logo{
+    position: relative;
+}
+.imagem-topo{
+    width: 85px;
+}
+.texto-topo{
+    width:250px;
+    padding: 5px;
+    position: absolute;
+    left: 90px;
+    top:35px;
+}
+.texto-topo h1{
+    font-size: 32px;
+}
+.texto-topo p{
+    font-size: 16px;
+    color:#2f86d6;
+    font-weight: 400;
+}
+.links{
+    position: absolute;
+    width: 500px;
+    padding: 5px;
+    top:8%;
+    right: 90px;
+}
+.links a{
+    text-decoration: none;
+    padding-right:5px ;
+    font-size: 18px;
+    color:#233032;
+}
+
+/* secao banner */
+.banner{
+    background-color: #2f86d6;
+    padding: 100px 0;
+    height: 80vh;
+}
+.banner .limita-secao{
+    position: relative;
+}
+.texto-banner{
+    position: absolute;
+    padding: 100px 0;
+    width: 470px;
+    top:0px;
+    left: 0px;
+
+    color: #fff;
+}
+.imagem-banner{
+    position:absolute;
+    top:0;
+    right:0;
+}
+.texto-banner p{
+    font-size: 16px;
+    color: #fff;
+}
+.texto-banner h2{
+    font-size: 28px;
+    color: #fff;
+}
+
+/* secao anuncio 1 e 2 */
+.anuncio{
+    padding: 40px 0;
+    background-color: #233032;
+    color:#fff;
+    height: 20vh;
+}
+.anuncio .limita-secao{
+    position: relative;
+}
+.texto-anuncio{
+    position: absolute;
+    width: 600px;
+}
+.texto-anuncio h2{
+    font-size: 24px;
+    color:#fff
+}
+.texto-anuncio p{
+    font-size: 16px;
+    color: #fff;
+}
+.botao{
+    width: 250px;
+    position: absolute;
+    right: 0;
+    font-size: 18px;
+    background-color: #2f86d6;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.botao a{
+    text-decoration: none;
+    font-weight: 500;
+}
+.botao span{
+    color: #fff;
+}
+/* FALTA AS CORES */
+
+/* secao informacoes */
+.informacoes{
+    padding: 100px 0;
+    height: 80vh;
+    /* text-align: center; */
+}
+.informacoes .limita-secao{
+    position: relative;
+}
+.texto-informacoes{
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+}
+.icones{
+    position: absolute;
+    top:150%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+}
+.icones img{
+    width:130px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.card{
+    text-align: center;
+    width:33%;
+    padding:1px;
+    margin-right: 5px;
+}
+.card h3{
+    font-weight: 700;
+}
+.card p{
+    margin-top: 15px;
+    font-size: 14px;
+}
+/* secao planos */
+.secao-planos {
+    padding: 100px 0px;
+    background-color: #f1f3f7;
+}
+
+.secao-planos h2 {
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 32px;
+}
+
+table {
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 0px 2px 40px 15px rgba(47,134,214,1);
+}
+
+table thead th {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #fff;
+}
+
+table thead th h3 {
+    margin-bottom: 20px;
+}
+
+table thead th img {
+    width: 100px;
+    margin: auto;
+}
+
+table thead th p {
+    max-width: 150px;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #a89f9f;
+}
+
+table tbody td {
+    width: 250px;
+    max-width: 1024px;
+    text-align: center;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.linha-impar {
+    background-color: #f6f6f6;
+}
+
+.linha-par {
+    background-color: #fff;
+}
+
+/* secao rodape */
+.rodape{
+    padding: 100px 0;
+}
+.rodape-logo{
+    width: 340px;
+    position: relative;
+    margin: 70px auto 40px;
+}
+.rodape-logo img{
+    width: 80px;
+}
+.rodape-logo div{
+    position: absolute;
+    left: 95px;
+    top: 0;
+}
+.rodape-logo p {
+    color: #2f86d6;
+    font-weight: 600;
+}
+.container-contatos{
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.container-copyright{
+    position: absolute;
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f6f6f6;
+}    
+span{
+    color: #2f86d6; 
+    font-style: italic; 
+}

@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.limita-secao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+/* secao topo */
+.topo{
+    background-color: #2f86d6;
+    padding: 35px 0;
+    position: relative;
+}
+.topo-logo{
+    position: relative;
+}
+.topo-logo img{
+    width: 85px;
+}
+.texto-topo{
+    position: absolute;
+    left: 90px;
+    top:0;
+    width: 250px;
+    padding: 5px;
+}
+.texto-topo h1{
+    font-size: 32px;
+}
+.texto-topo p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+.links{
+    position: absolute;
+    width: 500px;
+    top:78px;
+    right: 98px;
+}
+.links a{
+    margin: 5px;
+    color: #fff;
+    text-decoration: none;
+    padding-right:5px ;
+    font-size: 18px;
+}
+/* secao tabela */
+table{
+    padding: 100px 0;
+    margin: 0 auto;
+}
+thead{
+    padding: 20px 0;
+}
+.celula-cabecalho{
+    width: 240px;
+    padding: 20px 0;
+    line-height: 40px;
+}
+.celula-cabecalho p{
+    font-size: 14px;
+    color: #a8a4a4;
+    font-weight: 500;
+}
+.celula-cabecalho h2{
+    font-size: 36px;
+}
+
+tr{
+    line-height: 40px;
+    padding: 10px;
+}
+.primeira-celula{
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+}
+td{
+    box-sizing: content-box;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 40px;
+}
+.marcador-azul{
+    width: 20px;
+    height: 20px;
+    background-color: #2f86d6;
+    border-radius: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* secao rodape */
+.rodape{
+    padding-top:70px;
+    background-color: #2f86d6;
+
+}
+.logo-rodape{
+    position: relative;
+    width: 340px;
+    margin:40px auto 20px ;
+}
+.logo-rodape img{
+    width: 85px;
+}
+.texto-logo{
+    position: absolute;
+    left:90px;
+    top:0;
+}
+.texto-logo p{
+    font-weight: 600;
+    color: #fff;
+}
+.paragrafo-rodape{
+   text-align: center;
+   font-weight: 600;
+   color:#fff;
+   margin-bottom: 50px;
+   font-size: 16px;
+}
+.desenvolvedor{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #f6f6f6;
+
+
+}
+span{
+    color: #2f86d6;  
+    font-style: italic;
+}
